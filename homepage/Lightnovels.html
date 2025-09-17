@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="generalstyle.css" rel="stylesheet">
+        <title>fav mangas</title>
+    </head>
+    <body>
+        <h1>My top 5 favourite novels</h1>
+        <div class="subtitle">
+          <p>Here you will learn which are my favourite novels and something about them.</p>
+          <p>Read carefully, since the questions are about what is said here.</p>
+        </div>
+
+        <ol reversed start="5" class="reversed-list">
+            <li>
+                Kusuriya no Hitorigoto
+                <div class="anime-content">
+                    <img src="images/maomao.png" alt="Kusuriya's novel 14th cover" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/maomao.txt"></p>
+                </div>
+            </li>
+            <li>
+                Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e
+                <div class="anime-content">
+                    <img src="images/kiyo.png" alt="Kiyo and kushida arguing" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/kiyo.txt"></p>
+                </div>
+            </li>
+            <li>
+                Honzuki no Gekokujō
+                <div class="anime-content">
+                    <img src="images/myne.png" alt="honzuki's volume 30 back cover" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/myne.txt"></p>
+                </div>
+            </li>
+            <li>
+                Youjo Senki
+                <div class="anime-content">
+                    <img src="images/tanya.png" alt="Youjo senki's volume 3rd ilustration" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/tanya.txt"></p>
+                </div>
+            </li>
+            <li>
+                Adachi to Shimamura
+                <div class="anime-content">
+                    <img src="images/adamura.png" alt="Shimamura and Adachi playing along" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/adamura.txt"></p>
+                </div>
+            </li>
+        </ol>
+        <div class="subtitle">
+            <p>Now you can go to <a href="anime.html">animes</a>
+            ,<a href="mangas.html">mangas</a>
+            or to <a href="index.html">main page</a>
+            if you want to answer the questions now.
+           </p>
+        </div>
+        <script>
+            document.querySelectorAll('.anime-desc').forEach(p => {
+              const file = p.getAttribute('data-file');
+              fetch(file)
+                .then(res => res.text())
+                .then(text => p.textContent = text)
+                .catch(err => console.error(`Error loading ${file}`, err));
+            });
+        </script>
+    </body>
+</html>

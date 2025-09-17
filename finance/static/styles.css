@@ -1,0 +1,79 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+table td {
+    background-color: #eaf1fb;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #d0d7de;
+}
+
+tbody tr:nth-of-type(odd) td {
+    background-color: #dbe9fd;
+}
+
+.custom-select {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: border-color 0.3s;
+}
+
+.custom-select:focus {
+    border-color: #007bff;
+    outline: none;
+}

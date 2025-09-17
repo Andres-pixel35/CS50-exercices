@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="/static/styles_library.css" rel="stylesheet">
+        <title>Cosmos - Library</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="background-overlay"></div>
+
+        <div class="header" id="main-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <a href="/" target="_blank">
+                        <img src="/static/cosmos.png" alt="Cosmos Cat Logo" class="logo" id="cat-logo">
+                    </a>
+                </div>
+                <h1 class="main-title">Your Works</h1>
+            </div>
+        </div>
+
+        <div class="container" id="main-container">
+            <div class="section add-work-section" id="add-section">
+                <div class="section-header">
+                    <h2 class="section-title">Add a Work</h2>
+                </div>
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        <ul class="flashes">
+                            {% for category, message in messages %}
+                                {% if category == "error_work_exists" %}
+                                    <li class="flash-message error">{{ message }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endwith %}
+
+                <form action="/library" method="post" autocomplete="off" class="work-form" id="add-form">
+                    <div class="form-group">
+                        <input name="title" placeholder="Title" type="text" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <select name="type" id="type" required class="form-select">
+                            <option value="" disabled selected>-- Choose Type --</option>
+                            <option value="anime">Anime</option>
+                            <option value="manga">Manga</option>
+                            <option value="movie">Movie</option>
+                            <option value="manhwa">Manhwa</option>
+                            <option value="nl">NL</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="status" id="status" class="form-select">
+                            <option value="" disabled selected>-- Choose status --</option>
+                            <option value="ongoing">Ongoing</option>
+                            <option value="finalized">Finalized</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input name="rating" placeholder="Rating (optional)" type="number" min="1" max="10" class="form-input">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Work</button>
+                </form>
+            </div>
+
+            <div class="section delete-work-section" id="delete-section">
+                <div class="section-header">
+                    <h2 class="section-title">Delete a Work</h2>
+                </div>
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        <ul class="flashes">
+                            {% for category, message in messages %}
+                                {% if category == "error_work_donot_exists" %}
+                                    <li class="flash-message error">{{ message }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endwith %}
+
+                <form action="/library" method="post" autocomplete="off" class="work-form" id="delete-form">
+                    <div class="form-group">
+                        <input name="deletework" placeholder="Work's title" type="text" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <select name="deletetype" id="deletetype" required class="form-select">
+                            <option value="" disabled selected>-- Choose Type --</option>
+                            <option value="anime">Anime</option>
+                            <option value="manga">Manga</option>
+                            <option value="movie">Movie</option>
+                            <option value="manhwa">Manhwa</option>
+                            <option value="nl">NL</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Delete Work</button>
+                </form>
+            </div>
+
+            <div class="section update-work-section" id="update-section">
+                <div class="section-header">
+                    <h2 class="section-title">Update a Work</h2>
+                </div>
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        <ul class="flashes">
+                            {% for category, message in messages %}
+                                {% if category == "update_success" or category == "update_error" %}
+                                    <li class="flash-message {{ category }}">{{ message }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                {% endwith %}
+
+                <form action="/library/update" method="post" autocomplete="off" class="work-form" id="update-form">
+                    <div class="form-group">
+                        <input name="title" placeholder="Work's title" type="text" required class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="type" required class="form-select" required>
+                            <option value="" disabled selected>-- Choose Type --</option>
+                            <option value="anime">Anime</option>
+                            <option value="manga">Manga</option>
+                            <option value="movie">Movie</option>
+                            <option value="manhwa">Manhwa</option>
+                            <option value="nl">NL</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select name="status" class="form-select">
+                            <option value="" disabled selected>-- New status --</option>
+                            <option value="ongoing">Ongoing</option>
+                            <option value="finalized">Finalized</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input name="rating" placeholder="New Rating" type="number" min="1" max="10" class="form-input">
+                    </div>
+                    <button type="submit" class="btn btn-warning">Update Work</button>
+                </form>
+            </div>
+
+            <div class="section works-list-section" id="works-section">
+                <div class="section-header">
+                    <h2 class="section-title">All Works</h2>
+                </div>
+
+                <div class="table-container">
+                    <form method="get" id="filter-form">
+                        <table class="works-table" id="works-table">
+                            <thead>
+                                <tr class="table-header">
+                                    <th class="table-cell header-cell">#</th>
+                                    <th class="table-cell header-cell">Title</th>
+                                    <th class="table-cell header-cell">
+                                        <div class="header-title">Type</div>
+                                        <select name="filter_type" onchange="document.getElementById('filter-form').submit()">
+                                            <option value="" {% if not request.args.get('filter_type') %}selected{% endif %}>All</option>
+                                            <option value="anime" {% if request.args.get('filter_type') == 'anime' %}selected{% endif %}>Anime</option>
+                                            <option value="manga" {% if request.args.get('filter_type') == 'manga' %}selected{% endif %}>Manga</option>
+                                        </select>
+                                    </th>
+                                    <th class="table-cell header-cell">
+                                        <div class="header-title">Status</div>
+                                        <select name="filter_status" onchange="document.getElementById('filter-form').submit()">
+                                            <option value="" {% if not request.args.get('filter_status') %}selected{% endif %}>All</option>
+                                            <option value="ongoing" {% if request.args.get('filter_status') == 'ongoing' %}selected{% endif %}>Ongoing</option>
+                                            <option value="finalized" {% if request.args.get('filter_status') == 'finalized' %}selected{% endif %}>Finalized</option>
+                                            <option value="Unknown" {% if request.args.get('filter_status') == 'unknown' %}selected{% endif %}>Unknown</option>
+                                        </select>
+                                    </th>
+                                    <th class="table-cell header-cell rating-header">
+                                        <div class="header-title">Rating</div>
+                                        <div class="sort-controls">
+                                            <a href="{{ url_for('library', sort='rating', order='asc', filter_type=request.args.get('filter_type'), filter_status=request.args.get('filter_status')) }}" class="sort-link">↑</a>
+                                            <a href="{{ url_for('library', sort='rating', order='desc', filter_type=request.args.get('filter_type'), filter_status=request.args.get('filter_status')) }}" class="sort-link">↓</a>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for anime in animes %}
+                                    <tr class="table-row" data-type="{{ anime.type }}">
+                                        <td class="table-cell number-cell">{{ loop.index }}</td>
+                                        <td class="table-cell title-cell">{{ anime.name }}</td>
+                                        <td class="table-cell type-cell">
+                                            <span class="type-badge {{ anime.type }}">{{ anime.type.capitalize() }}</span>
+                                        </td>
+                                        <td class="table-cell status-cell">
+                                            <span class="status-badge {{ anime.status }}">{{ anime.status.capitalize() }}</span>
+                                        </td>
+                                        <td class="table-cell rating-cell">
+                                            <span class="rating-value">{{ anime.rating or 'N/A' }}</span>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

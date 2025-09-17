@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Cosmos -Result</title>
+    <link rel="stylesheet" href="/static/styless_result.css" />
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <header class="header">
+        <a href="/">
+            <img src="/static/cosmos.png" alt="Cosmos Logo" class="logo">
+        </a>
+    </header>
+    <div class="result-container">
+        <h1>{{ result.title }}</h1>
+        {% if result.image %}
+            <img src="{{ result.image }}" alt="Cover Image" class="cover-image">
+        {% endif %}
+        <p><strong>Type:</strong> {{ result.type }}</p>
+        <p><strong>Description:</strong></p>
+        <p>{{ result.description | safe }}</p>
+        <a href="/" class="back-button">Back</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('/static/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    z-index: 0;
+}
+
+
+.login-container {
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    position: relative;
+}
+
+
+.login-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cat-logo {
+    width: 300px;
+    height: auto;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+}
+
+
+
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #d35400;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(211, 84, 0, 0.2);
+}
+
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #d35400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #a04000;
+}
+
+
+.general_links {
+    text-align: centre;
+    margin-top: 20px;
+}
+
+.general_links a {
+    color: #d35400;
+    text-decoration: none;
+}
+
+.general_links a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 480px) {
+    .login-container {
+        width: 80%;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .header {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    transition: opacity 0.5s ease-out;
+  }
+
+  .title {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 2em;
+    color: #FFFAF0;
+    text-shadow: 2px 2px 5px black;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8));
+    z-index: -1;
+  }
+
+  .content {
+    background: #0f0f0f;
+    color: #d0d8ff;
+    padding: 40px;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.0;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 0.6em;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    margin: 5px auto;
+    width: 80%;
+    color: #A9A9A9;
+    text-shadow: 1px 1px 2px black;
+   }
+
+   a {
+    text-decoration: none; /* elimina el subrayado */
+    color: cornflowerblue; /* cambia el color */
+    font-weight: bold; /* lo pone en negrita */
+  }
+
+  button {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 5px 10px; /* Tamaño del botón */
+    margin: 5px 0; /* Espaciado entre botones */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+  }
+
+  #win-message {
+    background: #0f0f0f;
+    color: #d0d8ff;
+    padding: 40px;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for better visibility */
+    display: none; /* Hidden initially */
+}
+
+#win-message img {
+    max-width: 400px;
+    margin-bottom: 40px; /* Space between the image and text */
+}
+

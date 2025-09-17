@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="generalstyle.css" rel="stylesheet">
+        <title>fav mangas</title>
+    </head>
+    <body>
+        <h1>My top 5 favourite mangas</h1>
+        <div class="subtitle">
+          <p>Here you will learn which are my favourite mangas and something about them.</p>
+          <p>Read carefully, since the questions are about what is said here.</p>
+        </div>
+
+        <ol reversed start="5" class="reversed-list">
+            <li>
+                Ao no Hako
+                <div class="anime-content">
+                    <img src="images/chi.png" alt="Chinatsu and Inomata playing" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/chi.txt"></p>
+                </div>
+            </li>
+            <li>
+                Shingeki no Kyojin
+                <div class="anime-content">
+                    <img src="images/eren.png" alt="Kid eren freedom" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/eren.txt"></p>
+                </div>
+            </li>
+            <li>
+                Hinamatsuri
+                <div class="anime-content">
+                    <img src="images/hina.png" alt="magic" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/hina.txt"></p>
+                </div>
+            </li>
+            <li>
+                Gakkou Gurashi!
+                <div class="anime-content">
+                    <img src="images/dog.png" alt="someone who went crazy" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/dog.txt"></p>
+                </div>
+            </li>
+            <li>
+                Mahoutsukai no Yome
+                <div class="anime-content">
+                    <img src="images/chise.png" alt="Chise and his classmates" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/chise.txt"></p>
+                </div>
+            </li>
+        </ol>
+        <div class="subtitle">
+            <p>Now you can go to <a href="anime.html">animes</a>
+            ,<a href="Lightnovels.html">light novels</a>
+            or to <a href="index.html">main page</a>
+            if you want to answer the questions now.
+           </p>
+        </div>
+        <script>
+            document.querySelectorAll('.anime-desc').forEach(p => {
+              const file = p.getAttribute('data-file');
+              fetch(file)
+                .then(res => res.text())
+                .then(text => p.textContent = text)
+                .catch(err => console.error(`Error loading ${file}`, err));
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+maybe with the average of the energy or danceability because with that I can determinate
+how motivated they are and either they prefered dance and enjoy the music or they are
+more of the sort of hear and analize the music in a deeper way.
+
+This might bring some problems in accuracy due to the poor describe of the person, maybe someone hear
+danceable music and at the sama time they hear heavy metal, or k-pop and mixed a lot of differetens sort
+of style, so it's complicated.
+
+A better way to do this might be a deeper analysis of the lyrics to see what kind is predominant,
+with this you can determinate with more confidence the kind of people they are. though i think this
+would be quite inefficient.

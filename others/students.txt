@@ -1,0 +1,20 @@
+Student number 1:
+Name: Andres.
+Age: 19.
+Note: 10.0.
+Student number 2:
+Name: castro.
+Age: 20.
+Note: 9.0.
+Student number 3:
+Name: Jotho.
+Age: 24.
+Note: 8.0.
+Student number 4:
+Name: Emiliana.
+Age: 10.
+Note: 5.0.
+Student number 5:
+Name: Anuhar.
+Age: 26.
+Note: 7.0.

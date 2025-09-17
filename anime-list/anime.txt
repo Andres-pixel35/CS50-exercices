@@ -1,0 +1,365 @@
+1-Yu Gi Oh Duel Monster
+2-Dragón Ball
+3-Death Note
+4-Death Parade
+5-Code Geass
+6-Guilty Crown
+7-Noragami
+8-Another
+9-Zankyō no Terror
+10-No Game No Life (Anime)
+12-Yōkoso Jitsuryoku Shijō Shugi no Kyōshitsu e (Anime)
+16-Black Clover
+17-Beyblade: Metal Fusion
+18-Bakugan Battle Brawlers
+19-Great Teacher Onizuka
+20-K Project
+23-Btooom!
+24-Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai
+25-Nakanohito Genome [Jikkyouchuu]
+26-Kamisama no Memo Chou
+27-Neon Genesis Evangelion
+28-Shigatsu wa Kimi no Uso
+31-Hyouka
+32-Plastic Memories
+33-Angel Beats
+34-Anohana
+35-Seikaisuru Kado
+36-Serial Experiments Lain
+37-Monster
+41-Overlord
+42-Steins;Gate
+43-Lucky Star
+44-Shingeki no Kyojin
+47-Carole & Tuesday
+48-Akame Ga kill!
+49-Sword Art Online
+50-Dororo
+51-Rail Wars! Nihon Kokuyū Tetsudō Kōantai
+52-Hachigatsu no Cinderella Nine
+53-Kakegurui
+54-Ao no Exorcist
+55-Amnesia
+56-Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen
+57-Gotoubun no Hanayome
+58-Fullmetal Alchemist: Brotherhood
+59-Kimetsu no Yaiba
+61-Assassin's Pride
+62-Babylon
+63-Mahou Shoujo Site
+64-Yakusoku no Neverland
+65-SAO Alternative: Gun Gale Online
+66-Charlotte
+67-Made in Abyss
+68-Fate/Apocrypha
+69-Highschool of the Dead
+70-Pokémon
+71-91 Days
+72-Mirai Nikki
+73-Shiki
+74-B: The Beginning
+77-ID Invaded
+78-Pet
+79-Darwin's game
+80-Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.
+81-Jibaku Shounen Hanako-kun
+82-Infinite Dendrogram
+83-Arte
+84-Gleipnir
+85-Hachi-nan tte, Sore wa Nai Deshou!
+86-Kakushigoto {TV}
+87-Kami no tou: Tower of God
+88-Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta
+89-Princess Connect! Re:Dive
+90-Yesterday wo Utatte
+91-Naruto
+94-Prison School
+96-Corpse Party
+97-Himouto Umaru-chan
+98-Zetsuen no Tempest
+99-School Days
+100-kobayashi-san chi no Maid Dragon
+101-Conception
+102-Maou-sama Retry
+103-Pan de Peace
+104-Watashi ni Tenshi ga Maiorita!
+105-Nichijō
+106-Phantom: Requiem for the Phantom
+107-Darker than Black
+109-Tokyo Magnitude 8.0
+110-Hellsing Ultimate
+111-Avatar: La leyenda de Aang
+113-Satsuriku no Tenshi
+114-Devil May Cry
+115-Mob Psycho 100
+116-Blend S
+117-Long Riders!
+118-Slow Start
+119-Gakkō Gurashi!
+121-Mangirl!
+122-Netsuzō TRap
+123-Takunomi
+124-Bikini Woriāzu
+125-Inuyashiki
+126-The God of High School
+127-Hōkago Teibō Nisshi
+128-Fugō Keiji Balance: Unlimited
+129-Appare-Ranman!
+130-Vatican Kiseki Chousakan
+131-New Game!
+132-Princess Principal
+133-Higurashi no Naku Koro ni
+134-Bakuman
+135-Puella Magi Madoka Magica
+136-Mahō Tsukai no Yome
+137-Youjo Senki
+138-Shuumatsu no Izetta
+140-Shoujo Shuumatsu Ryokou
+141-Tensei Shitara Slime Datta Ken
+142-Goblin Slayer
+143-Vinland Saga
+145-Parasyte
+146-Akuma no Riddle
+147-Adachi to Shimamura
+148-Akudama Drive
+149-Higurashi no Naku Koro ni Gou
+150-Jujutsu Kaisen
+151-Maesetsu
+152-Noblesse
+153-Iwa-Kakeru! Sport Climbing Girls
+154-A Channel
+157-Zombieland Saga
+158-Junji Ito Collection
+160-Boku no Hero Academia
+161-Yuru Yuri
+163-Zombie Loan
+164-Tachibanakan Triangle
+165-Hero Mask
+166-Japan Sinks: 2020
+168-Kill la Kill
+169-Brand New Animal
+170-Tenkuu Shinpan
+172-Black Lagoon
+178-Sakura Trick
+184-A Secret Just Between You and Me (Doujinshi)
+191-Horimiya
+192-Kai Byoui Ramune
+193-Mushoku Tensei: Isekai Ittara Honki Dasu
+194-SK∞ the Infinity
+195-Urasekai Picnic
+196-Wonder Egg Priority
+197-Kemono Jihen
+198-Proyect Scard: Praeter no Kizu
+199-kaifuku Jutsushi no Yarinaoshi
+204-Gokushufudou
+205-Hataraku Saibō
+209-Miru Tights
+212-Yasuke
+214-Komori-san wa Kotowarenai!
+215-Magia Record: Puella Magi Madoka Magica Gaiden
+218-Haruhi Suzumiya no Yuutsu
+219-Majo no Tabitabi
+222-K-ON!
+230-Jigoku Shoujo
+233-Citrus
+237-Wotaku ni Koi wa Muzukashī
+241-Azur Lane
+244-Inugami-san to Nekoyama-san
+253-Blue Reflection Ray
+254-Fumetsu no Anata e
+255-Ijiranaide, Nagatoro-san
+256-Koi to Yobu ni wa Kimochi Warui
+257-Sayonara Watashi no Cramer
+258-Seijo no Maryoku wa Bannou desu
+259-Shadows House
+260-Shaman King [2021]
+261-Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita
+262-Super Cub
+263-Vivy: Fluorite Eye's Song
+264-Yakunara Mug Cup Mo
+271-Kiniro Mosaic
+273-Look Back (ONE SHOT)
+275-Girls und Panzer
+279-Yuru Camp
+281-Asobi Asobase
+285-Monogatari Series
+289-Watashi ga Motete Dousunda
+291-Joshi Kousei: Girl's High
+296-Honzuki no Gekokujou
+298-Pupipo!
+300-Devilman Crybaby
+301-Aiura
+305-Mushishi
+306-D_CIDE TRAUMEREI
+307-Deatte 5-byou de Battle
+308-Heion Sedai no Idaten-tachi
+309-Jahy-sama wa Kujikenai!
+310-Kageki Shoujo!!
+311-Maikyuu Black Company
+312-Peach Boy Riverside
+313-Shinigami Bocchan to Kuro Maid
+314-Shiroi Suna no Aquatope
+315-Sonny Boy
+316-Uramichi Oniisan
+317-Vanitas no Carter
+324-NANA
+325-009-1
+326-Paranoia Agent
+328-Mnemosyne
+329-Tanaka-kun wa Itsumo Kedaruge
+330-Kino no Tabi (2003)
+331-Kino no Tabi (2017)
+332-Psycho-Pass
+333-Occultic;Nine
+335-Blue Period
+336-Build Divide: Code Black
+337-Deep Insanity: The Lost Child
+338-Komi-san wa, Komyushou desu
+339-Mieruko-chan
+340-Platinum End
+341-Puraore!: PRIDE OF ORANGE
+342-Saihate no Paladin
+343-Senpai ga Uzai Kouhai no Hanashi
+344-takt op.Destiny
+345-Tsuki to Laika to Nosteratu
+346-Visual Prision
+347-180-byou de Kimi no Mimi wo Shiawase ni Dekiru ka?
+348-Yuyushiki
+349-Yagate Kimi ni Naru
+350-Akebi-chan no Serafuku
+351-Baraou no Souretsu
+352-CUE!
+353-Dolls' Frontiline
+354-Hakozume: Koban Joshi no Gyakushuu
+355-Irodorimidori
+356-Kenja no Deshi wo Nanoru Kenja
+357-Koroshi Ai
+358-Leadale no Daichi nite
+359-ORIENT
+360-Ryman's Club
+361-Sabikui Bisco
+362-Slow Loop
+363-Sono Bisque Doll wa Koi wo Suru
+364-Tensai Ouji no Akaji Kukka Saisei Jutsu
+365-Tokyo 24-ku
+366-Sayonara, Eri (ONE SHOT)
+367-Avatar: La leyenda de Korra
+370-"Deji" Meets Girl
+378-Aharen-san wa Hakarenai
+379-BIRDIE WING: Golf Girl's Story
+380-Dance Dance Danseur
+381-Gaikotsu Kishi-sama, Ladaima Isekai e Odekakechuu
+382-Spyx Family
+383-Summer Time Render
+384-Tomodachi Game
+387-Kakegurui Twin
+388-Futsuu ni Kiite Kure (ONE SHOT)
+391-Extreme Hearts
+392-Lycoris Recoil
+393-Teppen!!!!!!!!!!!!!!!
+394-Warau Arsnotoria Sun!
+395-Cyberpunk: Edgerunners
+397-Ousama Ranking
+399-Nazotokine
+400-Little Witch Academia
+406-4-nin wa Sorezore Uso wo Tsuku
+407-Akiba Maid Sensou
+408-Blue Lock
+409-Bocchi the Rock!
+410-C Danchi
+411-Chainsaw Man
+412-Do It Yourself!
+413-Kage no Jitsuryokusha ni Naritakute!
+414-Koukyuu no Karasu
+416-Genshiken
+418-Isekai Oji-san
+419-Hikari no Ou
+420-Nijiyon Animation
+421-Monogatari
+422-NieR: Automata Ver1.1a
+423-Onii-chan wa Oshimai!
+424-Revenger
+425-Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu
+426-Spy Kyōshitsu
+427-Tensei Oujo to Tensai Reijou no Mahou Kakumei
+430-Joshiraku
+432-Neo Dutch Wife (ONE SHOT)
+433-Sora yori mo Tooi Basho
+435-Boku Dake ga Inai Machi
+438-Ishuzoku Reviewers
+441-[Oshi no Ko]
+442-Jigokuraku
+443-Kanojo ga Koushaku-tei ni Itta Riyuu
+444-Mahou Shoujo Magical Destroyers
+445-MASHLE
+446-My Home Hero
+447-Tengoku Daimakyou
+448-Yamada-kun to Lv999 no Koi wo Suru
+450-Link Click
+452-AI no Idenshi
+453-Dekiru Neko wa Kyou mo Yuuutsu
+454-Liar Liar
+455-Rurouni Kenshin: Meiji Kenkaku Romantan (2023)
+456-Suki na Ko ga Megane wo Wasureta
+457-Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto
+458-Un-Go
+459-Heike Monogatari
+460-Kanojo to Kanojo no Neko: Everything Flows
+462-Dr. STONE
+463-Tonari no Seki-kun
+464-Ai Mai Mi
+465-Skip to Loafer
+466-Hametsu no Oukoku
+467-Hoshikuzu Telepath
+468-Kusuriya no Hitorigoto
+469-SHY
+470-Sousou no Frieren
+471-Tearmoon Teikoku Monogatari: Dantoudai kara Hajimaru, Hime no Tensei Gyakuten
+472-Watashi no Oshi wa Akuyaku Reijou
+473-PLUTO
+474-Eizōken ni wa Te wo Dasu na!
+475-Kitakubu Katsudou Kiroku
+478-Odd Taxi
+479-Anime de Wakaru Shinryounaika
+480-Ping Pong the Animation
+482-Trigun STAMPEDE
+483-BUCCHIGIRI?!
+484-Dungeon Meshi
+485-Hime-sama, "Goumon" no Jikan desu
+486-Kyūjitsu no Warumono-san
+487-Metallic Rouge
+488-Solo Leviling
+489-Yubisaki to Renren
+490-Deaimon
+492-Dead Dead Demon's Dededededestruction
+493-Jin-san Baa-san Wakagaeru
+494-Kaii to Otome to Kamikakushi
+495-Kaijuu 8-gou
+496-Karasu wa Aruji wo Erabanai
+497-Ookami to Koushinryou: merchant meets the wise wolf
+498-Sasayaku You ni Koi wo Utau
+499-Shuumatsu Train Doko e Iku?
+500-Gintama
+501-Tonari no Youkai-san
+502-Yoru no Kurage wo Oyogena
+503-Kuma Kuma Kuma Bear
+504-Gaikotsu Shotenin Honda-san
+505-Burst Angel
+506-Isekai Suicide Squad
+507-Na-Nare Hana-Nare
+508-Nige Jouzu no Wakagami
+509-Shikanoko Nokonoko Koshitantan
+510-Shoushimen Series
+512-NHK ni Yōkoso!
+513-Ghost Stories
+515-Ao no Hako
+516-Chi: Chikyuu no Undou ni Tsuite
+517-Dandadan
+518-Dragon Ball DAIMA
+519-Mahoutsukai ni Narenakatta Onnanoko no Hanashi
+520-Ranma 1/2 (2024)
+521-Touhai: Ura Rate Mahjong Touhai Roku
+522-Uzumaki
+524-SAKAMOTO DAYS
+525-Sorairo Utility (TV)
+526-Übel Blatt

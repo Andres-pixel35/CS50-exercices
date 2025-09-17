@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <script src="trivia.js"></script>
+    </head>
+    <body>
+        <div class="header" id="header">
+            <img src="images/cosmos.png" alt="Header Image" id="headerImage">
+            <div class="overlay"></div>
+            <div class="title">
+              Do you know who I am?
+              <p class="subtitle">Well, today you will know me.</p>
+              <p class="subtitle">not really since i'm just going to talk about anime</p>
+              <p class="subtitle">whatever, it's my page</p>
+            </div>
+          </div>
+
+          <div class="content">
+            <p>Maybe after what you saw at the background. you are truly interested in who I am</p>
+            <p>however, as I said you won't learn about me, but about anime.</p>
+          </div>
+
+          <div class="content">
+            <p>In order to do that you can go to <a href="anime.html">animes,</a>
+            <a href="mangas.html">mangas</a>
+            and to <a href="Lightnovels.html">light novels</a>.</p>
+            <p>There you will learn and after you can come back here to answer some questions.</p>
+            <p>If you get all the questions right, you will know the name of the cat at the background.</p>
+          </div>
+
+          <div class="content">
+            <h2>Questions 1: Multiple Choice </h2>
+                <hr>
+                <h3>Which of the following is the only work to be in the mangas' list and animes'?</h3>
+                <button class="correct">Mahoutsukai no Yome</button>
+                <button class="incorrect">Sousoi no Frieren</button>
+                <button class="incorrect">Oshi no Ko</button>
+                <button class="incorrect">Adachi to Shimamura</button>
+                <button class="incorrect">Code Geass</button>
+                <div class="feedback"></div>
+          </div>
+
+          <div class="content">
+            <h2>Questions 2: Multiple Choice </h2>
+                <hr>
+                <h3>What did I expected from Oshi no Ko's anime?</h3>
+                <button class="incorrect">Deception</button>
+                <button class="incorrect">Nothing</button>
+                <button class="correct">Greatness</button>
+                <button class="incorrect">Garbage</button>
+                <button class="incorrect">Mediocrity</button>
+                <div class="feedback"></div>
+          </div>
+
+          <div class="content">
+            <h2>Questions 3: Multiple Choice </h2>
+                <hr>
+                <h3>How many differents works are in total?</h3>
+                <button class="incorrect">18</button>
+                <button class="incorrect">15</button>
+                <button class="incorrect">30</button>
+                <button class="incorrect">20</button>
+                <button class="correct">19</button>
+                <div class="feedback"></div>
+          </div>
+
+        <!-- Win message box -->
+        <div id="win-message">
+          <img src="images/its-cosmos.png" alt="Cosmos">
+          <h2>Her name is Cosmos!!!!!!</h2>
+      </div>
+
+      <!-- Restart Button -->
+      <div class="content">
+          <button id="restart-btn">Restart</button>
+      </div>
+
+      <script src="trivia.js"></script>
+
+      <script>
+          // Fade effect on the header image when scrolling
+          const image = document.getElementById("headerImage");
+
+          window.addEventListener("scroll", () => {
+              const scrollY = window.scrollY;
+              const fadePoint = 300;
+              const opacity = Math.max(1 - scrollY / fadePoint, 0);
+              image.style.opacity = opacity;
+          });
+      </script>
+  </body>
+</html>

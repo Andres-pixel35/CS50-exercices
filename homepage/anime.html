@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="generalstyle.css" rel="stylesheet">
+        <title>fav animes</title>
+    </head>
+    <body>
+        <h1>My top 10 favourite animes</h1>
+        <div class="subtitle">
+          <p>Here you will learn which are my favourite animes and something about them.</p>
+          <p>Read carefully, since the questions are about what is said here.</p>
+        </div>
+
+        <ol reversed start="10" class="reversed-list">
+            <li>
+                [Oshi no Ko]
+                <div class="anime-content">
+                    <img src="images/oshi.png" alt="Ai sleeping" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/oshi.txt"></p>
+                </div>
+            </li>
+            <li>
+                Link Click
+                <div class="anime-content">
+                    <img src="images/link.png" alt="Link click cover" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/link.txt"></p>
+                </div>
+            </li>
+            <li>
+                Yesterday wo Utatte
+                <div class="anime-content">
+                    <img src="images/yesterday.png" alt="Nonaka smiling" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/yesterday.txt"></p>
+                </div>
+            </li>
+            <li>
+                Vivy: Fluorite Eye's Song
+                <div class="anime-content">
+                    <img src="images/vivy.png" alt="Vivy's eye" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/vivy.txt"></p>
+                </div>
+            </li>
+            <li>
+                Suzumiya Haruhi no Yūutsu
+                <div class="anime-content">
+                    <img src="images/haruhi.png" alt="Haruhi staring at the camera" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/haruhi.txt"></p>
+                </div>
+            </li>
+            <li>
+                Sousou no frieren
+                <div class="anime-content">
+                    <img src="images/frieren.png" alt="Frieren walking alone" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/frieren.txt"></p>
+                </div>
+            </li>
+            <li>
+                Mahoutsukai no Yome
+                <div class="anime-content">
+                    <img src="images/elias.png" alt="elias and chise kissing each other" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/elias.txt"></p>
+                </div>
+            </li>
+            <li>
+                Lucky star
+                <div class="anime-content">
+                    <img src="images/kanata.png" alt="kanata aproving" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/kanata.txt"></p>
+                </div>
+            </li>
+            <li>
+                Monogatari Series
+                <div class="anime-content">
+                    <img src="images/monogatari.png" alt="shinobu's master farming aura" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/monogatari.txt"></p>
+                </div>
+            </li>
+            <li>
+                Code Geass
+                <div class="anime-content">
+                    <img src="images/geass.png" alt="Lelouch going crazy" class="anime-img">
+                    <p class="anime-desc" data-file="descriptions/geass.txt"></p>
+                </div>
+            </li>
+        </ol>
+        <div class="subtitle">
+            <p>Now you can go to <a href="mangas.html">mangas</a>
+            ,<a href="Lightnovels.html">light novels</a>
+            or to <a href="index.html">main page</a>
+            if you want to answer the questions now,
+           </p>
+        </div>
+        <script>
+            document.querySelectorAll('.anime-desc').forEach(p => {
+              const file = p.getAttribute('data-file');
+              fetch(file)
+                .then(res => res.text())
+                .then(text => p.textContent = text)
+                .catch(err => console.error(`Error loading ${file}`, err));
+            });
+        </script>
+    </body>
+</html>
+

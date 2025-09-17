@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cosmos - List Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results_list.css') }}" />
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <header class="header">
+        <a href="/">
+            <img src="{{ url_for('static', filename='cosmos.png') }}" alt="Logo" class="logo" />
+        </a>
+        <h1>Choose your work</h1>
+    </header>
+
+    <ul class="results-list">
+        {% for item in results %}
+        <li>
+            <a href="{{ url_for('details', media_id=item['id']) }}">
+                {{ item['title']['romaji'] }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

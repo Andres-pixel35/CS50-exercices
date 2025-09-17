@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cosmos - Search</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+
+    <a href="/logout" class="logout-button">Logout</a>
+
+    <form action="/" method="post">
+
+
+        <div class="background-blur"></div>
+
+        <div class="search-container">
+        <div class="logo-container">
+            <a href="/library" target="_blank">
+                <img src="static/cosmos.png" alt="Custom Logo" class="logo" />
+            </a>
+        </div>
+
+        <div class="search-row">
+            <input type="text" name="query" class="search-box" autocomplete="off" autofocus class="form-control mx-auto w-auto" placeholder="Search here..." required>
+            <select name="type" class="select-box" required>
+                <option value="" disabled selected>Type</option>
+                <option value="manga">Manga</option>
+                <option value="anime">Anime</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
