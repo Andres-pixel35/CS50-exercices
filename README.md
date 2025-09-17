@@ -17,4 +17,4 @@ but instead givins advising.
 
 In the final project, which you can find at **project**, they allowed the use of LLM though. 
 
-The final project from CS50 it´s the same that **Anime searcher** whose repo you can find on my repos.
+The final project from CS50 it´s the same that **AniVault** whose repo you can find in my repos.
